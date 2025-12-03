@@ -1,10 +1,20 @@
-#  U-Net: Deep Learning Image Segmentation
+# U-Net: Deep Learning Image Segmentation
 
 A TensorFlow/Keras implementation of the U-Net architecture for semantic image segmentation. This project demonstrates a complete U-Net model capable of performing pixel-level classification on images.
 
-![U-Net Architecture](model_summary.png)
+![U-Net Architecture](u-net-architecture.png)
 
-##  Table of Contents
+## Results
+
+### Input Image
+![Input Image](cat.png)
+
+### Predicted Segmentation Mask
+![Predicted Mask](predicted_image.jpg)
+
+The model successfully generates pixel-level segmentation masks, identifying and classifying different regions in the input image.
+
+## Table of Contents
 
 - [Overview](#overview)
 - [Architecture](#architecture)
@@ -13,7 +23,6 @@ A TensorFlow/Keras implementation of the U-Net architecture for semantic image s
   - [Decoder Block](#decoder-block)
   - [Skip Connections](#skip-connections)
 - [Model Summary](#model-summary)
-- [Results](#results)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
@@ -137,17 +146,7 @@ The complete U-Net model architecture:
 
 ![Model Architecture](model_summary.png)
 
-##  Results
-
-### Input Image
-![Input Image](cat.png)
-
-### Predicted Segmentation Mask
-![Predicted Mask](predicted_image.jpg)
-
-The model successfully generates pixel-level segmentation masks, identifying and classifying different regions in the input image.
-
-##  Installation
+## Installation
 
 ### Prerequisites
 
@@ -224,7 +223,7 @@ unet/
 └── README.md              # This file
 ```
 
-## 🔧 Model Components Summary
+## Model Components Summary
 
 | Component | Purpose | Key Operations |
 |-----------|---------|----------------|
@@ -243,7 +242,7 @@ This project is open source and available under the MIT License.
 
 ##  Author
 
-Created with ❤️ for deep learning and computer vision applications.
+Created for deep learning and computer vision applications.
 
 ---
 
