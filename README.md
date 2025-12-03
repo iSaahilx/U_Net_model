@@ -159,7 +159,7 @@ The complete U-Net model architecture:
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/iSaahilx/U_Net_model.git
 cd unet
 
 # Install dependencies
