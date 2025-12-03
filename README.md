@@ -236,15 +236,3 @@ unet/
 
 - [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597) - Original U-Net paper by Ronneberger et al.
 
-##  License
-
-This project is open source and available under the MIT License.
-
-##  Author
-
-Created for deep learning and computer vision applications.
-
----
-
-**Note**: This is an untrained model. For meaningful segmentation results, the model needs to be trained on a labeled dataset with appropriate loss functions (e.g., Dice Loss, Binary Cross-Entropy) and optimization strategies.
-
